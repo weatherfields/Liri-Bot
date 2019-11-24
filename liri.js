@@ -118,4 +118,20 @@ function movieThis() {
             "\nActors: " + response.data.Actors);
         console.log("\r\n\r\n-----------------------------------------------");
     })
+}
+// use the built in readFile method to use random.txt
+function doThis() {
+    fs.readFile('./random.txt', 'utf8', function (err, data) {
+        if (err) {
+            return console.log("Errors occured: " + err);
+        }
+        // } else { // separate objects at comma with .split
+        let daTa = data.split(",");
+        // use random.txt objects as search parameters 
+        userChoice = daTa[0];
+        userSearch = daTa[1];
+        // call the userCommand function with set parameters
+        userCommand(userChoice, userSearch);
+
+    });
 };
