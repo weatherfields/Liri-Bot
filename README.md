@@ -1,12 +1,12 @@
-# LIRI-Bot
+# Welcome to LIRI-Bot!
 
-Welcome to LIRI-Bot. Via your inputs in terminal, LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.
+Via your inputs in terminal, LIRI-Bot will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.
 It will accomplish this by using the necesary modules/packages.
 Via API calls, the data will be returned in JSON format. It will be parsed and displayed (output) in the format specified.
 
 ## How To Use:
 
-You are givent the choice of four commands to input into the Terminal:
+You are given the choice of four commands to input into the Terminal:
 
 ```
 concert-this, spotify-this-song, movie-this, do-what-it-says
@@ -16,7 +16,7 @@ concert-this, spotify-this-song, movie-this, do-what-it-says
 
 If you input something wrong, then you will see "Please try again" on the display. This means that you need to start over.
 
-## Screen shots of the app working
+## Screenshots of the app working
 
 #### **"concert-this"**
 
