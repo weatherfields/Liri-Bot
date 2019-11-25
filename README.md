@@ -1,14 +1,18 @@
 # LIRI-Bot
 
 Welcome to LIRI-Bot. Via your inputs in terminal, LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.
-It will accomplish this by using the necesary API's and modules/packages.
-Via API calls, the data will be returned in JSON format, parsed and displayed (output) in the format specified.
+It will accomplish this by using the necesary modules/packages.
+Via API calls, the data will be returned in JSON format. It will be parsed and displayed (output) in the format specified.
 
 ## How To Use:
 
 You are givent the choice of four commands to input into the Terminal:
+
+```
 concert-this, spotify-this-song, movie-this, do-what-it-says
-_"node liri.js" (without quotes) must precede any of the above commands._
+```
+
+"node liri.js" (without quotes) must precede any of the above commands.
 
 If you input something wrong, then you will see "Please try again" on the display. This means that you need to start over.
 
@@ -33,7 +37,7 @@ This is what happens when you type "node liri.js movie-this back to the future" 
 
 #### **"do-what-it-says"**
 
-When "node liri.js do-what-it-says" is typed, the random.txt file is read from the doThis function. Then whatever is written into random.txt is used as the search parameters.
+Below is an example of what happens when "node liri.js do-what-it-says" is typed. The random.txt file is read from the doThis function, then whatever is written into random.txt is used as the search parameters.
 ![do-what-it-says](./images/do-what.png)
 
 ## Technologies Used
